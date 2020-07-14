@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>GitHub使用详解</title>
+      <link href="/2020/07/14/GitHub%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3/"/>
+      <url>/2020/07/14/GitHub%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3/</url>
+      
+        <content type="html"><![CDATA[<h2 id="修改仓库文件"><a href="#修改仓库文件" class="headerlink" title="修改仓库文件"></a>修改仓库文件</h2><pre><code>点击文件名，进行修改</code></pre><h2 id="Git安装与使用"><a href="#Git安装与使用" class="headerlink" title="Git安装与使用"></a>Git安装与使用</h2><pre><code>下载与安装：Git官网下载</code></pre><h2 id="Git基本工作流程"><a href="#Git基本工作流程" class="headerlink" title="Git基本工作流程"></a>Git基本工作流程</h2><h3 id="Git工作区域"><a href="#Git工作区域" class="headerlink" title="Git工作区域"></a>Git工作区域</h3><h4 id="工作区，暂存区，仓库"><a href="#工作区，暂存区，仓库" class="headerlink" title="工作区，暂存区，仓库"></a>工作区，暂存区，仓库</h4><h4 id="git-status-查看当前状态"><a href="#git-status-查看当前状态" class="headerlink" title="git status 查看当前状态"></a>git status 查看当前状态</h4><h4 id="git-add-“文件名”-添加到暂存区"><a href="#git-add-“文件名”-添加到暂存区" class="headerlink" title="git add “文件名” 添加到暂存区"></a>git add “文件名” 添加到暂存区</h4><h4 id="git-status-再次查看状态"><a href="#git-status-再次查看状态" class="headerlink" title="git status 再次查看状态"></a>git status 再次查看状态</h4><h4 id="git-commit-m-“提交描述”"><a href="#git-commit-m-“提交描述”" class="headerlink" title="git commit -m “提交描述”"></a>git commit -m “提交描述”</h4><h2 id="Git基本信息设置"><a href="#Git基本信息设置" class="headerlink" title="Git基本信息设置"></a>Git基本信息设置</h2><h4 id="设置用户名：-git-config-–global-user-name-‘CoderYangy’"><a href="#设置用户名：-git-config-–global-user-name-‘CoderYangy’" class="headerlink" title="设置用户名： git config –global user.name ‘CoderYangy’"></a>设置用户名： git config –global user.name ‘CoderYangy’</h4><h4 id="设置用户名邮箱：git-config-–global-user-name-‘1303007264-qq-com’"><a href="#设置用户名邮箱：git-config-–global-user-name-‘1303007264-qq-com’" class="headerlink" title="设置用户名邮箱：git config –global user.name ‘1303007264@qq.com’"></a>设置用户名邮箱：git config –global user.name ‘1303007264@qq.com’</h4><h2 id="初始化一个项目-新的Git仓库"><a href="#初始化一个项目-新的Git仓库" class="headerlink" title="初始化一个项目 新的Git仓库"></a>初始化一个项目 新的Git仓库</h2><h4 id="git-init"><a href="#git-init" class="headerlink" title="git init"></a>git init</h4><h2 id="创建文件，把文件提交到缓存区"><a href="#创建文件，把文件提交到缓存区" class="headerlink" title="创建文件，把文件提交到缓存区"></a>创建文件，把文件提交到缓存区</h2><h4 id="git-add"><a href="#git-add" class="headerlink" title="git add ."></a>git add .</h4><h2 id="把暂存区文件-添加到仓库"><a href="#把暂存区文件-添加到仓库" class="headerlink" title="把暂存区文件 添加到仓库"></a>把暂存区文件 添加到仓库</h2><h4 id="git-commit-m-‘描述’"><a href="#git-commit-m-‘描述’" class="headerlink" title="git commit -m ‘描述’"></a>git commit -m ‘描述’</h4><h2 id="下载克隆项目到本地"><a href="#下载克隆项目到本地" class="headerlink" title="下载克隆项目到本地"></a>下载克隆项目到本地</h2><h4 id="git-clone-资源路径"><a href="#git-clone-资源路径" class="headerlink" title="git clone 资源路径"></a>git clone 资源路径</h4><p> ##将本地仓库同步到远程仓库  github创建一个新的仓库，复制url</p><h4 id="git-remote-add-origin-https-github-com-xxxxx-xxxxx-git"><a href="#git-remote-add-origin-https-github-com-xxxxx-xxxxx-git" class="headerlink" title="git remote add origin https://github.com/xxxxx/xxxxx.git"></a>git remote add origin <a href="https://github.com/xxxxx/xxxxx.git" target="_blank" rel="noopener">https://github.com/xxxxx/xxxxx.git</a></h4><p> ##执行命令：git pull origin master</p><p>####该命令是先把github上的文件拉下来，注意在每次提交之前要首先进行pull，这是防止冲突。</p><h2 id="再提交"><a href="#再提交" class="headerlink" title="再提交"></a>再提交</h2><h4 id=""><a href="#" class="headerlink" title=""></a></h4>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的第一篇hexo博客文章</title>
       <link href="/2020/06/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hexo%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
       <url>/2020/06/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hexo%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
