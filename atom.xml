@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-14T05:26:09.288Z</updated>
+  <updated>2020-07-15T01:41:56.413Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue基础环境搭建-安装配置vue-router</title>
+    <link href="http://yoursite.com/2020/07/15/vue%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEvue-router/"/>
+    <id>http://yoursite.com/2020/07/15/vue%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEvue-router/</id>
+    <published>2020-07-15T01:14:21.000Z</published>
+    <updated>2020-07-15T01:41:56.413Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;创建项目，使用命令引入vue-router&quot;&gt;&lt;a href=&quot;#创建项目，使用命令引入vue-router&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="vue基础" scheme="http://yoursite.com/tags/vue%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
   
   <entry>
     <title>GitHub使用详解</title>

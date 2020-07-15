@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>vue基础环境搭建-安装配置vue-router</title>
+      <link href="/2020/07/15/vue%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEvue-router/"/>
+      <url>/2020/07/15/vue%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEvue-router/</url>
+      
+        <content type="html"><![CDATA[<h2 id="创建项目，使用命令引入vue-router"><a href="#创建项目，使用命令引入vue-router" class="headerlink" title="创建项目，使用命令引入vue-router"></a>创建项目，使用命令引入vue-router</h2><pre><code>npm install vue-router --save</code></pre><h2 id="创建router文件夹，创建index-js默认文件"><a href="#创建router文件夹，创建index-js默认文件" class="headerlink" title="创建router文件夹，创建index.js默认文件"></a>创建router文件夹，创建index.js默认文件</h2><p>##完成基本配置</p><pre><code>//首先引入vue.jsimport Vue from &#39;vue&#39;//引入vue-routerimport VueRouter from &#39;vue-router&#39;//使用Vue.user(VueRouter)//创建路由  例:const routes = [    { path: &#39;/&#39;, compontent: ()=&gt; import(&#39;components/home/Home.vue&#39;) }]//创建router实例 对象const router = new VueRouter({    //挂载路由    router,    //哈希模式和传统模式切换     mode: &#39;history&#39;})//抛出对象export default router</code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> vue基础 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>GitHub使用详解</title>
       <link href="/2020/07/14/GitHub%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3/"/>
       <url>/2020/07/14/GitHub%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3/</url>
