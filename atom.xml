@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-15T01:41:56.413Z</updated>
+  <updated>2020-07-27T10:07:00.677Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JavaScript基础学习</title>
+    <link href="http://yoursite.com/2020/07/27/javaScript%E5%9F%BA%E7%A1%80%E7%AF%87/"/>
+    <id>http://yoursite.com/2020/07/27/javaScript%E5%9F%BA%E7%A1%80%E7%AF%87/</id>
+    <published>2020-07-27T01:14:21.000Z</published>
+    <updated>2020-07-27T10:07:00.677Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;JavaScript-实现方式（各浏览器引擎）&quot;&gt;&lt;a href=&quot;#JavaScript-实现方式（各浏览器引擎）&quot; class=&quot;headerlink&quot; title=&quot;JavaScript 实现方式（各浏览器引擎）&quot;&gt;&lt;/a&gt;JavaScript
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>vue基础环境搭建-安装配置vue-router</title>
     <link href="http://yoursite.com/2020/07/15/vue%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEvue-router/"/>
     <id>http://yoursite.com/2020/07/15/vue%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEvue-router/</id>
     <published>2020-07-15T01:14:21.000Z</published>
-    <updated>2020-07-15T01:41:56.413Z</updated>
+    <updated>2020-07-27T03:02:54.512Z</updated>
     
     <summary type="html">
     
@@ -37,7 +64,7 @@
     
     
     
-      <category term="vue基础" scheme="http://yoursite.com/tags/vue%E5%9F%BA%E7%A1%80/"/>
+      <category term="vue" scheme="http://yoursite.com/tags/vue/"/>
     
   </entry>
   
@@ -46,7 +73,7 @@
     <link href="http://yoursite.com/2020/07/14/GitHub%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3/"/>
     <id>http://yoursite.com/2020/07/14/GitHub%E4%BD%BF%E7%94%A8%E8%AF%A6%E8%A7%A3/</id>
     <published>2020-07-14T01:54:15.000Z</published>
-    <updated>2020-07-14T05:26:09.288Z</updated>
+    <updated>2020-07-27T03:03:36.544Z</updated>
     
     <summary type="html">
     
@@ -62,14 +89,18 @@
     
     
     
+      <category term="GitHub" scheme="http://yoursite.com/tags/GitHub/"/>
+    
+      <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
   </entry>
   
   <entry>
-    <title>我的第一篇hexo博客文章</title>
-    <link href="http://yoursite.com/2020/06/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hexo%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
-    <id>http://yoursite.com/2020/06/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87hexo%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</id>
+    <title>安装搭建hexo个人博客</title>
+    <link href="http://yoursite.com/2020/06/11/%E5%AE%89%E8%A3%85%E6%90%AD%E5%BB%BAhexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://yoursite.com/2020/06/11/%E5%AE%89%E8%A3%85%E6%90%AD%E5%BB%BAhexo%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</id>
     <published>2020-06-11T14:46:03.000Z</published>
-    <updated>2020-06-11T15:45:49.952Z</updated>
+    <updated>2020-07-27T03:04:52.363Z</updated>
     
     <summary type="html">
     
@@ -85,28 +116,7 @@
     
     
     
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2020/06/11/hello-world/"/>
-    <id>http://yoursite.com/2020/06/11/hello-world/</id>
-    <published>2020-06-11T14:32:08.854Z</published>
-    <updated>2020-06-11T14:32:08.855Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
-    
-    </summary>
-    
-    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
     
   </entry>
   
