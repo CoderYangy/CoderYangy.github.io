@@ -351,21 +351,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-07-27
+                    2020-07-29
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    959
+                    1.7k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    6 分
                 </div>
                 
 
@@ -478,6 +478,133 @@
          NaN不与任何相等
          undefined <span class="token operator">==</span> null  //true
          isNaN<span class="token punctuation">(</span><span class="token punctuation">)</span>  检查一个数是不是NaN</code></pre>
+<h2 id="if-switch相关语法"><a href="#if-switch相关语法" class="headerlink" title="if,switch相关语法"></a>if,switch相关语法</h2><pre class=" language-bash"><code class="language-bash">语法: if<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span>
+-if语句只能控制紧跟其后的那一条语句
+-if语句想要控制多条语句，可以将语句写进 代码块中<span class="token punctuation">{</span> <span class="token punctuation">}</span>
+-if语句后代码块不是必须的，但为了条理清楚，尽量加上代码块格式
+
+语法二: if<span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    语句
+<span class="token punctuation">}</span> <span class="token keyword">else</span> if<span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span><span class="token punctuation">{</span>
+    语句
+<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+
+<span class="token punctuation">}</span>
+
+-从上往下一次进行判断
+-如果是true,执行当前代码块语句
+-如果是false,依次向下判断下一个if语句
+-如果都不满足执行 <span class="token keyword">else</span> 语句块
+
+语法: switch<span class="token punctuation">(</span>值<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">case</span> 1: 
+    表达式
+    <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> 2:
+    表达式
+    <span class="token keyword">break</span><span class="token punctuation">;</span>
+    <span class="token keyword">case</span> 3:
+    表达式
+    <span class="token keyword">break</span><span class="token punctuation">;</span>
+    default:
+    表达式
+    <span class="token keyword">break</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+-使用break来退出switch
+-default  所有的都无法成功时,调用default</code></pre>
+<h2 id="弹出框类型"><a href="#弹出框类型" class="headerlink" title="弹出框类型"></a>弹出框类型</h2><pre class=" language-JavaScript"><code class="language-JavaScript"> prompt('请输入小明的期末成绩:');
+  //页面弹出一个带有输入框的弹框。
+ //用户输入的内容作为函数的返回值返回，可以直接定义一个变量来接收该内容
+ alert();  //页面弹出一个弹框</code></pre>
+<h2 id="循环语句"><a href="#循环语句" class="headerlink" title="循环语句"></a>循环语句</h2><pre class=" language-bash"><code class="language-bash">循环语句: 通过循环语句可以反复的执行一段代码多次
+
+while循环
+ -语法: 
+       while<span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+           语句<span class="token punctuation">..</span>.
+       <span class="token punctuation">}</span>
+
+       <span class="token keyword">break</span> 可以退出循环
+
+
+
+for循环
+1.初始化表达式
+2.条件表达式
+3.更新表达式
+
+for循环语法: 
+for<span class="token punctuation">(</span>①初始化表达式<span class="token punctuation">;</span>②条件表达式<span class="token punctuation">;</span>④更新表达式<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    ③语句<span class="token punctuation">..</span>.
+<span class="token punctuation">}</span>
+   for循环执行流程:
+   ①执行初始化表达式，初始化变量
+   ②执行条件表达式，判断是否执行循环。
+     如果为true，则执行循环③
+     如果为false，则终止循环
+   ④执行更新表达式，更新表达式执行完毕继续重复②
+
+
+
+  for循环中的三个部分都可以省略 也可以写在外部  
+  死循环:
+  for<span class="token punctuation">(</span><span class="token punctuation">;</span><span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+      alert<span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">)</span>
+  <span class="token punctuation">}</span></code></pre>
+<h2 id="Object"><a href="#Object" class="headerlink" title="Object"></a>Object</h2><pre class=" language-JavaScript"><code class="language-JavaScript"><!--   创建对象
+         使用new关键字调用的函数，是构造函数，
+          构造函数专门创建对象的函数 -->
+
+          let obj = new Object()
+          使用对象字面量来创建一个对象
+          let odj = {}
+          语法: {属性名:属性值,属性名:属性值...}
+          对象字面量的属性名可以加可以不加引号，建议不加
+          属性名和属性值是一组一组的名值对结构，
+          名和值之间使用:链接，多个名值对用,号隔开。
+          最后一个属性后不要再写,了
+          let obj2 = {name: "yangyang"}
+          //添加属性 
+          obj.name ='yangy'
+          obj.gender = '男'
+          odj.name = 'lisi'
+          odj.gender = '女'
+          console.log(obj);
+          console.log(odj);
+          //读取对象中的属性   对象名.属性名   如果读取对象中没有的属性，不会报错，而返回undefined
+          console.log(obj.name);
+          console.log(odj.gender);
+
+           //删除对象中的属性
+           //语法: delete 对象.属性名
+           delete obj.name;
+
+           <!-- 属性名:
+             -对象的属性名不能是数字开头
+             -尽量遵守标识符规范
+              语法: 对象["属性名"] = 属性值-->
+              obj['age'] = 22
+
+
+
+             <!-- JS中的变量都是保存在栈内存里面的
+              基本数据类型的值直接在栈内存中存储
+              值与值之间是独立的，修改一个变量是不会影响其他的变量
+
+              对象是保存在堆内存里面的，每创建一个新的对象就是开辟了一个新的空间
+
+             -->      
+             let a= 123;                                  let obj = new Object()
+             let b=a;                                     obj.name = 'swk'；
+             a++                                          let obj2 = obj
+                     栈内存                               堆内存
+                变量       值                         专门开辟一个空间来保存当前对象
+                a          124                              例 0x123
+                b          123                                 name = swk
+                obj        ox123(指针指向堆内存)
+                obj2       ox123(同一个对象)</code></pre>
 
             </div>
             <hr/>
@@ -983,7 +1110,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.4k</span>&nbsp;字
+                class="white-color">2.1k</span>&nbsp;字
             
             
             
