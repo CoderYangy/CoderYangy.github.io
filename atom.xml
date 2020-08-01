@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hi</title>
+  <title>CoderY的个人博客</title>
   
   <subtitle>CoderYangy</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-29T09:53:43.645Z</updated>
+  <updated>2020-08-01T09:23:33.398Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>JavaScript基础学习-函数</title>
+    <link href="http://yoursite.com/2020/07/31/JavaScript%E5%9F%BA%E7%A1%80%E7%AF%87-%E5%87%BD%E6%95%B0/"/>
+    <id>http://yoursite.com/2020/07/31/JavaScript%E5%9F%BA%E7%A1%80%E7%AF%87-%E5%87%BD%E6%95%B0/</id>
+    <published>2020-07-31T09:48:33.000Z</published>
+    <updated>2020-08-01T09:23:33.398Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;函数的定义&quot;&gt;&lt;a href=&quot;#函数的定义&quot; class=&quot;headerlink&quot; title=&quot;函数的定义&quot;&gt;&lt;/a&gt;函数的定义&lt;/h2&gt;&lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;   
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>JavaScript基础学习</title>
     <link href="http://yoursite.com/2020/07/27/javaScript%E5%9F%BA%E7%A1%80%E7%AF%87/"/>
     <id>http://yoursite.com/2020/07/27/javaScript%E5%9F%BA%E7%A1%80%E7%AF%87/</id>
     <published>2020-07-27T01:14:21.000Z</published>
-    <updated>2020-07-29T09:53:43.645Z</updated>
+    <updated>2020-07-29T09:57:57.139Z</updated>
     
     <summary type="html">
     
