@@ -324,12 +324,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%9F%BA%E7%A1%80/">
-                                <span class="chip bg-color">基础</span>
-                            </a>
-                        
                             <a href="/tags/JavaScript/">
                                 <span class="chip bg-color">JavaScript</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%9F%BA%E7%A1%80%EF%BC%8C%E6%95%B0%E7%BB%84/">
+                                <span class="chip bg-color">基础，数组</span>
                             </a>
                         
                     </div>
@@ -344,7 +344,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-07-27
+                    2020-08-02
                 </div>
                 
 
@@ -358,14 +358,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.3k
+                    536
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    8 分
+                    1 分
                 </div>
                 
 
@@ -380,281 +380,123 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="JavaScript-实现方式（各浏览器引擎）"><a href="#JavaScript-实现方式（各浏览器引擎）" class="headerlink" title="JavaScript 实现方式（各浏览器引擎）"></a>JavaScript 实现方式（各浏览器引擎）</h2><h4 id="ECMAScript-是JavaScript的标准，但这俩基本是一个意思-Google-Chrome-（V8引擎）-目前执行js最快的引擎"><a href="#ECMAScript-是JavaScript的标准，但这俩基本是一个意思-Google-Chrome-（V8引擎）-目前执行js最快的引擎" class="headerlink" title="ECMAScript 是JavaScript的标准，但这俩基本是一个意思  Google Chrome （V8引擎） 目前执行js最快的引擎"></a>ECMAScript 是JavaScript的标准，但这俩基本是一个意思  Google Chrome （V8引擎） 目前执行js最快的引擎</h4><h2 id="JS的特点："><a href="#JS的特点：" class="headerlink" title="JS的特点："></a>JS的特点：</h2><pre class=" language-bash"><code class="language-bash">-解释型语言
--类似于C和Java的语法结构
--动态语音
--基于原型的面向对象</code></pre>
-<h2 id="JavaScript-基本语法"><a href="#JavaScript-基本语法" class="headerlink" title="JavaScript 基本语法"></a>JavaScript 基本语法</h2><pre class=" language-bash"><code class="language-bash">        alert<span class="token punctuation">(</span><span class="token string">'弹出一个内容框'</span><span class="token punctuation">)</span>
-        document.write<span class="token punctuation">(</span><span class="token string">'可以向body里输出一个内容'</span><span class="token punctuation">)</span>
-        console.log<span class="token punctuation">(</span><span class="token string">'向控制台输出一个内容'</span><span class="token punctuation">)</span>
+                <h2 id="数组基本概念"><a href="#数组基本概念" class="headerlink" title="数组基本概念"></a>数组基本概念</h2><pre class=" language-JavaScript"><code class="language-JavaScript">           内建对象
+           宿主对象
+           自定义的对象
 
-        1.JS中严格区分大小写
-        2.JS中每一条语句已分号<span class="token punctuation">(</span><span class="token punctuation">;</span><span class="token punctuation">)</span>结尾 -如何不加分号，会消耗系统资源，有一些时候会加错分号
-        3.JS会忽略多个空格和换行，所以可以利用空格和换行来进行代码格式化</code></pre>
-<pre class=" language-bash"><code class="language-bash">   字面量,都是一些不可改变的值  都是可以直接使用的
-   变量,可以用来保存字面量，而且变量可以任意变量</code></pre>
-<h2 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h2><pre class=" language-bash"><code class="language-bash">   -在JS中可以由自己随意命名的称为标识符
-   -命名规则:
-     1.标识符中可以含有数字、字母、_、$
-     2.标识符不能以数字开头
-     3.标识符不能是ES中的关键字或保留字 例:<span class="token punctuation">(</span>var var <span class="token operator">=</span> 123<span class="token punctuation">)</span>
-     4，规范  -首字母小写,每个单词开头字母大写,其余字母小写</code></pre>
-<h2 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h2><pre class=" language-bash"><code class="language-bash">   在JS中一共有六种基本数据类型
-   String 字符串
-   Number 数值
-   Boolean 布尔型
-   Null 空值
-   Undefined 未定义
-   Symbol 原始数据类型
 
-   引用数据类型
-   Object 对象
+           数组(Array)
+            -数组也是一个对象
+            -它和普通对象类似，也是用来存储一些值
+            -不同的是普通对象是使用字符串作为属性名
+            而数组是使用数字来作为索引操作元素
+            -索引:
+            从0开始的整数就是索引
+            -数组的存储性能比普通对象要好，在开发中经常使用数组来存储一些数据
 
-   如何使用？
-   -使用定义字符串 <span class="token punctuation">(</span>在JS中使用引号引起来<span class="token punctuation">)</span>
-   const str <span class="token operator">=</span> <span class="token string">'hello'</span>
 </code></pre>
-<h2 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h2><pre class=" language-bash"><code class="language-bash">   \<span class="token string">' 表示 '</span>
-   \<span class="token string">" 表示 "</span>
-   \n 表示 换行
-   \t 表示 制表符 相当于按下Tab
-   \\ 表示 \
-
-   typeof  检查一个变量的类型
-
-   JS中表示最大的值
-   Number.MAX_VALUE
-
-   布尔值
-   布尔值只有两个,主要是做逻辑判断
-   <span class="token boolean">true</span> 真
-   <span class="token boolean">false</span> 假
-
-   Null 类型 只有一个 null
-   -null这个值，专门用来表示一个为空的对象
-
-   Undefined<span class="token punctuation">(</span>未定义<span class="token punctuation">)</span> 
-   -当声明一个变量，但是并不给变量赋值时，他得知就是undefined</code></pre>
-<h2 id="强制转换类型"><a href="#强制转换类型" class="headerlink" title="强制转换类型"></a>强制转换类型</h2><pre class=" language-bash"><code class="language-bash">方式:
-      - 调用被转换数据类型的toString<span class="token punctuation">(</span><span class="token punctuation">)</span>方法     调用方法 就是 xxx.yyy方法<span class="token punctuation">(</span><span class="token punctuation">)</span>
-      - 调用String<span class="token punctuation">(</span><span class="token punctuation">)</span> 函数 转换         函数 使用  String<span class="token punctuation">(</span>参数<span class="token punctuation">)</span>
-
-强制转数字
-方式:  
-      -调用Number<span class="token punctuation">(</span><span class="token punctuation">)</span>
-      注意: 
-           1.如果纯数字的字符串,则直接转换称 --<span class="token operator">></span> 数字
-           2.如果字符串中有其他字符,则转换成 --<span class="token operator">></span> NaN
-           3.如果字符串为空格或空字符串,转换成 --<span class="token operator">></span> 0
-           4.如果变量为 null,转换成 --<span class="token operator">></span> 0
-           5.如果变量为 布尔值 则  <span class="token boolean">true</span> --<span class="token operator">></span> 1, <span class="token boolean">false</span> --<span class="token operator">></span> 0
-           6.如果变量为 undefined 则转换成 NaN
+<h2 id="创建一个数组对象"><a href="#创建一个数组对象" class="headerlink" title="创建一个数组对象"></a>创建一个数组对象</h2><pre class=" language-JavaScript"><code class="language-JavaScript">            let arr = new Array()        typeof 为 Object
+        或    let arr1 = []
 
 
-方式二: 
-      -这种专门用来对付字符串  <span class="token punctuation">(</span>非字符型  会先转换成字符型再进行转<span class="token punctuation">)</span>
-      -parseInt<span class="token punctuation">(</span><span class="token punctuation">)</span>  转换成  number  
-      -parseFloat<span class="token punctuation">(</span><span class="token punctuation">)</span>  转换成 小数型
 
 
-      Boolean<span class="token punctuation">(</span><span class="token punctuation">)</span>
-      数字转布尔   除了 0 和 NaN  都是true
-      字符串转布尔  除了 <span class="token string">''</span>  都是true
-      null,undefined 转 为 <span class="token boolean">false</span>
 </code></pre>
-<h2 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h2><pre class=" language-bash"><code class="language-bash">        进行运算符操作时   首先会先把 变量转换成数字 再进行 运算
-        任何值和NaN做运算，都是NaN
+<h2 id="向数组中添加元素"><a href="#向数组中添加元素" class="headerlink" title="向数组中添加元素"></a>向数组中添加元素</h2><pre class=" language-JavaScript"><code class="language-JavaScript">
+            语法: 数组名[索引] = 值
 
-        如果对两个值 做加法运算，有非字符串 ，做拼接操作  例<span class="token punctuation">(</span>    <span class="token keyword">let</span> a <span class="token operator">=</span> 100 +<span class="token string">'1'</span> -<span class="token string">'100'</span><span class="token punctuation">)</span>  //901
-        隐式转换类型
-        如果是减法运算， 便是做转换数值 <span class="token punctuation">(</span>Number类型<span class="token punctuation">)</span> 减法</code></pre>
-<pre class=" language-bash"><code class="language-bash">逻辑运算符
-         <span class="token operator">&amp;&amp;</span>   如果第一个为true    返回第二个     <span class="token keyword">let</span> result<span class="token operator">=</span> 2 <span class="token operator">&amp;&amp;</span> 0       返回false那个 0
-         <span class="token operator">&amp;&amp;</span>   如果第一个为false   返回第一个     <span class="token keyword">let</span> result<span class="token operator">=</span> 0 <span class="token operator">&amp;&amp;</span> 2       返回false那个 0
-         <span class="token operator">||</span>   如果第一个为true    返回第一个     <span class="token keyword">let</span> result<span class="token operator">=</span> 1 <span class="token operator">||</span> 0       返回true 那个 1
-         <span class="token operator">||</span>   如歌第二个为false   返回第二个     <span class="token keyword">let</span> result<span class="token operator">=</span> 0 <span class="token operator">||</span> 1       返回true 那个 1
+            arr[0] = 10
+            arr[1] = 33
+
+            读取数组中的元素
+            语法: 数组名[索引]
+            arr[0]   
+            如果索引不存在，不会报错，会返回undefined
 </code></pre>
-<pre class=" language-bash"><code class="language-bash">相等运算
-         NaN不与任何相等
-         undefined <span class="token operator">==</span> null  //true
-         isNaN<span class="token punctuation">(</span><span class="token punctuation">)</span>  检查一个数是不是NaN</code></pre>
-<h2 id="if-switch相关语法"><a href="#if-switch相关语法" class="headerlink" title="if,switch相关语法"></a>if,switch相关语法</h2><pre class=" language-bash"><code class="language-bash">语法: if<span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+<h2 id="获取数组长度"><a href="#获取数组长度" class="headerlink" title="获取数组长度"></a>获取数组长度</h2><pre class=" language-JavaScript"><code class="language-JavaScript">
+            获取数组长度
+            可以使用length属性获取数组的长度 (元素的个数)
+            语法: 数组.length
 
-<span class="token punctuation">}</span>
--if语句只能控制紧跟其后的那一条语句
--if语句想要控制多条语句，可以将语句写进 代码块中<span class="token punctuation">{</span> <span class="token punctuation">}</span>
--if语句后代码块不是必须的，但为了条理清楚，尽量加上代码块格式
+            对于非连续的数组，使用length()会返回最大索引+1
+            尽量不要创建非连续的数组，没有值得会空出来，以,隔开
 
-语法二: if<span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    语句
-<span class="token punctuation">}</span> <span class="token keyword">else</span> if<span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span><span class="token punctuation">{</span>
-    语句
-<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+            arr.length
 
-<span class="token punctuation">}</span>
+</code></pre>
+<h2 id="向数组的最后一个位置添加元素"><a href="#向数组的最后一个位置添加元素" class="headerlink" title="向数组的最后一个位置添加元素"></a>向数组的最后一个位置添加元素</h2><pre class=" language-JavaScript"><code class="language-JavaScript">             语法: 数组[数组.length] = 值
+            arr[arr.length] = 70
+</code></pre>
+<h2 id="数组的四个方法"><a href="#数组的四个方法" class="headerlink" title="数组的四个方法"></a>数组的四个方法</h2><h3 id="push"><a href="#push" class="headerlink" title="push()"></a>push()</h3><pre class=" language-JavaScript"><code class="language-JavaScript">            push()
+             -该方法可以向数组末尾添加一个或多个元素，并返回数组的新的长度
+             -可以将要添加的元素作为方法的参数传递
+             这样这些元素将会自动添加到数组的末尾
 
--从上往下一次进行判断
--如果是true,执行当前代码块语句
--如果是false,依次向下判断下一个if语句
--如果都不满足执行 <span class="token keyword">else</span> 语句块
+             arr.push('yang','li','zhang')
+</code></pre>
+<h3 id="pop"><a href="#pop" class="headerlink" title="pop()"></a>pop()</h3><pre class=" language-JavaScript"><code class="language-JavaScript">            pop()
+             -该方法可以向数组最后一个元素 b并将删除的元素作为返回值返回
+             arr.pop()
+</code></pre>
+<h3 id="unshift"><a href="#unshift" class="headerlink" title="unshift()"></a>unshift()</h3><pre class=" language-JavaScript"><code class="language-JavaScript">            unshift()
+             -该方法在数组开头添加一个或多个元素，并返回新的数组长度
+             -向前面插入元素以后，其他元素索引会依次调整
+            arr.unshift('zou','wu','zheng')</code></pre>
+<h3 id="shift"><a href="#shift" class="headerlink" title="shift()"></a>shift()</h3><pre class=" language-JavaScript"><code class="language-JavaScript">           shift()
+              -删除数组中第一个元素，并将删除的元素作为返回值返回
+            arr.shift()
+</code></pre>
+<h2 id="遍历数组"><a href="#遍历数组" class="headerlink" title="遍历数组"></a>遍历数组</h2><pre class=" language-JavaScript"><code class="language-JavaScript">           所谓遍历数组，就是将数组中所有的元素都取出来
+              for(let i=0; i<arr.length; i++){
+                  console.log(arr[i])
+              }
+</code></pre>
+<h2 id="forEach遍历"><a href="#forEach遍历" class="headerlink" title="forEach遍历"></a>forEach遍历</h2><pre class=" language-JavaScript"><code class="language-JavaScript">           JS中为我们听过了一个方法，来遍历数组
+           forEach() 方法需要一个函数作为参数
+            -像这种函数，由我们创建但是不由我们调用的，成为回调函数
+            -数组中有几个元素函数就会执行几次
+            浏览器以实参传递进来，我们可以定义形参，来读取这些内容
+            浏览器会在回调函数中传递三个参数:
+               1.第一个参数，就是当前正在遍历的元素
+               2.第二个参数，就是当前正在遍历的元素的索引
+               3.第三个元素，就是正在变得数组
+               注意:IE8及以下不要使用此方法
+           arr.forEach(function(value,index, obj){})
+</code></pre>
+<h2 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h2><pre class=" language-JavaScript"><code class="language-JavaScript">           创建一个函数，遍历找出数组中年龄满18的对象，保存在一个新的数组中
+           方案一
+            function Person(name,age){
+                 this.name = name
+                 this.age = age
+             }
+            let n = new Person("孙悟空",18)
+            let n1 = new Person("猪八戒",28)
+            let n2 = new Person("沙和尚",8)
+            let n3 = new Person("嫦娥",16)
+            let n4 = new Person("玉兔精",38)
 
-语法: switch<span class="token punctuation">(</span>值<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    <span class="token keyword">case</span> 1: 
-    表达式
-    <span class="token keyword">break</span><span class="token punctuation">;</span>
-    <span class="token keyword">case</span> 2:
-    表达式
-    <span class="token keyword">break</span><span class="token punctuation">;</span>
-    <span class="token keyword">case</span> 3:
-    表达式
-    <span class="token keyword">break</span><span class="token punctuation">;</span>
-    default:
-    表达式
-    <span class="token keyword">break</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
--使用break来退出switch
--default  所有的都无法成功时,调用default</code></pre>
-<h2 id="弹出框类型"><a href="#弹出框类型" class="headerlink" title="弹出框类型"></a>弹出框类型</h2><pre class=" language-JavaScript"><code class="language-JavaScript"> prompt('请输入小明的期末成绩:');
-  页面弹出一个带有输入框的弹框。
- 用户输入的内容作为函数的返回值返回，可以直接定义一个变量来接收该内容
- alert();  页面弹出一个弹框</code></pre>
-<h2 id="循环语句"><a href="#循环语句" class="headerlink" title="循环语句"></a>循环语句</h2><pre class=" language-bash"><code class="language-bash">循环语句: 通过循环语句可以反复的执行一段代码多次
-
-while循环
- -语法: 
-       while<span class="token punctuation">(</span>条件表达式<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-           语句<span class="token punctuation">..</span>.
-       <span class="token punctuation">}</span>
-
-       <span class="token keyword">break</span> 可以退出循环
-
-
-
-for循环
-1.初始化表达式
-2.条件表达式
-3.更新表达式
-
-for循环语法: 
-for<span class="token punctuation">(</span>①初始化表达式<span class="token punctuation">;</span>②条件表达式<span class="token punctuation">;</span>④更新表达式<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-    ③语句<span class="token punctuation">..</span>.
-<span class="token punctuation">}</span>
-   for循环执行流程:
-   ①执行初始化表达式，初始化变量
-   ②执行条件表达式，判断是否执行循环。
-     如果为true，则执行循环③
-     如果为false，则终止循环
-   ④执行更新表达式，更新表达式执行完毕继续重复②
-
-
-
-  for循环中的三个部分都可以省略 也可以写在外部  
-  死循环:
-  for<span class="token punctuation">(</span><span class="token punctuation">;</span><span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-      alert<span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">)</span>
-  <span class="token punctuation">}</span></code></pre>
-<h2 id="Object"><a href="#Object" class="headerlink" title="Object"></a>Object</h2><pre class=" language-JavaScript"><code class="language-JavaScript">  创建对象
-         使用new关键字调用的函数，是构造函数，
-          构造函数专门创建对象的函数 
-
-          let obj = new Object()
-          使用对象字面量来创建一个对象
-          let odj = {}
-          语法: {属性名:属性值,属性名:属性值...}
-          对象字面量的属性名可以加可以不加引号，建议不加
-          属性名和属性值是一组一组的名值对结构，
-          名和值之间使用:链接，多个名值对用,号隔开。
-          最后一个属性后不要再写,了
-          let obj2 = {name: "yangyang"}
-          添加属性 
-          obj.name ='yangy'
-          obj.gender = '男'
-          odj.name = 'lisi'
-          odj.gender = '女'
-          console.log(obj);
-          console.log(odj);
-          读取对象中的属性   对象名.属性名   如果读取对象中没有的属性，不会报错，而返回undefined
-          console.log(obj.name);
-          console.log(odj.gender);
-
-           删除对象中的属性
-           语法: delete 对象.属性名
-           delete obj.name;
-
-            属性名:
-             -对象的属性名不能是数字开头
-             -尽量遵守标识符规范
-              语法: 对象["属性名"] = 属性值
-              obj['age'] = 22
-
-
-
-              JS中的变量都是保存在栈内存里面的
-              基本数据类型的值直接在栈内存中存储
-              值与值之间是独立的，修改一个变量是不会影响其他的变量
-
-              对象是保存在堆内存里面的，每创建一个新的对象就是开辟了一个新的空间
-
-
-             let a= 123;                                  let obj = new Object()
-             let b=a;                                     obj.name = 'swk'；
-             a++                                          let obj2 = obj
-                     栈内存                               堆内存
-                变量       值                         专门开辟一个空间来保存当前对象
-                a          124                              例 0x123
-                b          123                                 name = swk
-                obj        ox123(指针指向堆内存)
-                obj2       ox123(同一个对象)</code></pre>
-<h2 id="使用工厂方法创建对象"><a href="#使用工厂方法创建对象" class="headerlink" title="使用工厂方法创建对象"></a>使用工厂方法创建对象</h2><pre class=" language-JavaScript"><code class="language-JavaScript">            function createPerson() {
-                创建一个新的对象
-                let obj = {}
-
-                相对相中添加属性
-
-                将新的对象返回
-                return obj
+            let perArr = [n,n1,n2,n3,n4]
+            console.log(perArr);
+            function compPer(perArr){
+                let newArr = []
+                for(let i=0;i<perArr.length;i++) {
+                    if(perArr[i].age>=18) {
+                        newArr.push(perArr[i])
+                    }
+                }
+                return newArr
             }
-            let a = createPerson()</code></pre>
-<h2 id="使用构造函数创建对象"><a href="#使用构造函数创建对象" class="headerlink" title="使用构造函数创建对象"></a>使用构造函数创建对象</h2><pre class=" language-JavaScript"><code class="language-JavaScript">         创建一个构造函数，专门用来创建Person对象的
-         构造函数就是一个普通函数，创建方式和普通函数没有区别，
-         不同的是构造函数习惯上首字母大写   加new就是构造函数
 
-         构造函数和普通函数的区别就是调用方式不同
-         普通函数就是直接调用，而构造函数需要使用new关键字来调用
+            console.log(compPer(perArr));
 
-         构造函数的执行流程:
-           1.立即创建一个新的对象
-           2.将新建的对象设置为函数中this，在构造函数中可以使用this来引用新建的对象
-           3.逐行执行函数中的代码
-           4.将新建的对象作为返回值返回
-
-            function Person() {
-
-            }
-            let pre = new Person()
-
-            使用instanceof可以检查一个对象是否是一个类的实例
-
-            function Dog(){
-
-            }
-            let dog = new Dog()</code></pre>
-<h2 id="创建一个原型对象"><a href="#创建一个原型对象" class="headerlink" title="创建一个原型对象"></a>创建一个原型对象</h2><pre class=" language-JavaScript"><code class="language-JavaScript">           原型  prototype
-
-           我们所创建的每一个函数，绝吸气都会向函数中添加一个属性prototype
-           这个属性对应着一个对象，这个对象就是我们所谓的原型对象
-           如果函数作为普通函数调用prototype没有任何作用
-           指向该构造函数的对象，我们可以通过__proto__来访问该属性
-
-           原型对象就相当于一个公共的区域，所有同一个类的实例都可以访问到这个原型对象，
-           我们可以讲对象中共有的内容，统一设置到原型对象中
-
-           创建一个原型对象  
-           function MyClass(){}
-           调用构造函数
-           MyClass.prototype.name = "我是原型中的名字"
-           let mc = new MyClass()
-           console.log(mc.name)</code></pre>
+            方案二
+            let newArr = []
+            perArr.forEach(function(a,b){
+                if(a.age>=18){
+                    newArr.push(a)
+                }
+             })
+             console.log(newArr);</code></pre>
 
             </div>
             <hr/>
@@ -680,7 +522,7 @@ for<span class="token punctuation">(</span>①初始化表达式<span class="tok
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://yoursite.com/2020/07/27/javaScript%E5%9F%BA%E7%A1%80%E7%AF%87/">http://yoursite.com/2020/07/27/javaScript%E5%9F%BA%E7%A1%80%E7%AF%87/</a>
+                    <a href="http://yoursite.com/2020/08/02/JavaScript%E5%9F%BA%E7%A1%80%E7%AF%87-%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1/">http://yoursite.com/2020/08/02/JavaScript%E5%9F%BA%E7%A1%80%E7%AF%87-%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -718,12 +560,12 @@ for<span class="token punctuation">(</span>①初始化表达式<span class="tok
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%9F%BA%E7%A1%80/">
-                                    <span class="chip bg-color">基础</span>
-                                </a>
-                            
                                 <a href="/tags/JavaScript/">
                                     <span class="chip bg-color">JavaScript</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%9F%BA%E7%A1%80%EF%BC%8C%E6%95%B0%E7%BB%84/">
+                                    <span class="chip bg-color">基础，数组</span>
                                 </a>
                             
                         </div>
@@ -894,7 +736,7 @@ for<span class="token punctuation">(</span>①初始化表达式<span class="tok
         repo: 'CoderYangy.github.io',
         owner: 'CoderYangy',
         admin: "CoderYangy",
-        id: '2020-07-27T09-14-21',
+        id: '2020-08-02T15-49-40',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -918,9 +760,67 @@ for<span class="token punctuation">(</span>①初始化表达式<span class="tok
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2020/08/02/JavaScript%E5%9F%BA%E7%A1%80%E7%AF%87-%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="JavaScript基础学习">
+                        
+                        <span class="card-title">JavaScript基础学习</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            数组基本概念           内建对象
+           宿主对象
+           自定义的对象
+
+
+           数组(Array)
+            -数组也是一个对象
+            -它和普通对象
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-08-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            CoderYangy
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/JavaScript/">
+                        <span class="chip bg-color">JavaScript</span>
+                    </a>
+                    
+                    <a href="/tags/%E5%9F%BA%E7%A1%80%EF%BC%8C%E6%95%B0%E7%BB%84/">
+                        <span class="chip bg-color">基础，数组</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/2020/07/31/JavaScript%E5%9F%BA%E7%A1%80%E7%AF%87-%E5%87%BD%E6%95%B0/">
                     <div class="card-image">
@@ -942,9 +842,9 @@ for<span class="token punctuation">(</span>①初始化表达式<span class="tok
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-07-31
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-31
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
@@ -962,53 +862,6 @@ for<span class="token punctuation">(</span>①初始化表达式<span class="tok
                     
                     <a href="/tags/JavaScript/">
                         <span class="chip bg-color">JavaScript</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2020/07/15/vue%E5%9F%BA%E7%A1%80%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEvue-router/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="vue基础环境搭建-安装配置vue-router">
-                        
-                        <span class="card-title">vue基础环境搭建-安装配置vue-router</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            创建项目，使用命令引入vue-routernpm install vue-router --save创建router文件夹，创建index.js默认文件##完成基本配置
-//首先引入vue.js
-import Vue from &#39;v
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-07-15
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            CoderYangy
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/vue/">
-                        <span class="chip bg-color">vue</span>
                     </a>
                     
                 </div>
