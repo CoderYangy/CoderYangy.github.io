@@ -351,21 +351,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-08-01
+                    2020-08-04
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.9k
+                    2.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    7 分
+                    8 分
                 </div>
                 
 
@@ -632,7 +632,50 @@ let obj = {}
         这个对象我们称为函数执行的上下文对象
         根据函数的调用方式不同，this会指向不同的对象
            1.以函数形式调用，this永远都是window
-           2.以方法形式调用，this就是调用的这个对象</code></pre>
+           2.以方法形式调用，this就是调用方法的对象
+           3.以构造函数形式调用，this是新创建的那个对象
+           4.使用call和apply调用时,this是指定的那个对象</code></pre>
+<h2 id="call-和apply"><a href="#call-和apply" class="headerlink" title="call()和apply()"></a>call()和apply()</h2><pre class=" language-JavaScript"><code class="language-JavaScript">              -这两个方法都是函数对象的方法，需要通过函数对象来调用
+              例:  function fun(){
+                  alert('我是fun函数')
+              }
+              fun 为函数对象
+              fun() 为调用函数
+
+              fun.apply() 都是调用函数执行
+              fun.apply() 都是调用函数执行
+
+              -在调用call()和apply() 可以将一个对象指定为第一个参数
+                此时这个对象将会成为函数执行时的this
+              let obj = {}
+              fun.call(obj,实参1,实参2)
+              fun.apply(obj1,[实参1,实参2])
+
+
+              例:
+              function fun(a,b){
+                  name = '张扬'
+                  console.log('a='+a)
+                  console.log('b='+b)
+                  console.log(this.name)
+
+              }
+              let obj = {name:'杨洋'}
+              let obj1 = {name:'李白'}
+              fun(5,6)                5,6 张扬
+              fun.call(obj,2,3)       2,3 杨洋
+              fun.apply(obj1,[3,4])   3,4 李白</code></pre>
+<h2 id="arguments"><a href="#arguments" class="headerlink" title="arguments"></a>arguments</h2><pre class=" language-JavaScript"><code class="language-JavaScript">   封装函数实参的对象   arguments
+    -arguments是一个类数组对象,他也可以通过索引来操作数据，也可以获取长度
+    -在调用函数时，我们所传递的实参都会在arguments中保存
+    -在arguments.length可以用来获取实参长度
+    -即使不定义形参，也可以使用arguments来使用实参
+    -有个属性叫做callee
+    就是当前指向的函数对象
+    function fun(){
+        console.log(arguments[2]);    34
+    }
+    fun(1,2,34,5)</code></pre>
 
             </div>
             <hr/>
@@ -900,7 +943,7 @@ let obj = {}
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/08/02/JavaScript%E5%9F%BA%E7%A1%80%E7%AF%87-%E5%8E%9F%E5%9E%8B%E5%AF%B9%E8%B1%A1/">
+                <a href="/2020/08/02/JavaScript%E5%9F%BA%E7%A1%80%E7%AF%87-%E6%95%B0%E7%BB%84/">
                     <div class="card-image">
                         
                         
@@ -937,12 +980,16 @@ let obj = {}
                 
                 <div class="card-action article-tags">
                     
+                    <a href="/tags/%E5%9F%BA%E7%A1%80/">
+                        <span class="chip bg-color">基础</span>
+                    </a>
+                    
                     <a href="/tags/JavaScript/">
                         <span class="chip bg-color">JavaScript</span>
                     </a>
                     
-                    <a href="/tags/%E5%9F%BA%E7%A1%80%EF%BC%8C%E6%95%B0%E7%BB%84/">
-                        <span class="chip bg-color">基础，数组</span>
+                    <a href="/tags/%E6%95%B0%E7%BB%84/">
+                        <span class="chip bg-color">数组</span>
                     </a>
                     
                 </div>
@@ -1145,7 +1192,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">5.2k</span>&nbsp;字
+                class="white-color">6.3k</span>&nbsp;字
             
             
             
