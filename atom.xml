@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-08-04T09:43:16.428Z</updated>
+  <updated>2020-09-10T09:01:10.060Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,123 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>ES6</title>
+    <link href="http://yoursite.com/2020/08/22/javascript%E9%AB%98%E9%98%B6/"/>
+    <id>http://yoursite.com/2020/08/22/javascript%E9%AB%98%E9%98%B6/</id>
+    <published>2020-08-22T01:23:57.000Z</published>
+    <updated>2020-09-10T09:01:10.060Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;let-和-const&quot;&gt;&lt;a href=&quot;#let-和-const&quot; class=&quot;headerlink&quot; title=&quot;let 和 const&quot;&gt;&lt;/a&gt;let 和 const&lt;/h2&gt;&lt;pre class=&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+    
+      <category term="ES6" scheme="http://yoursite.com/tags/ES6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;定时器和延时器&#39;</title>
+    <link href="http://yoursite.com/2020/08/18/%E5%AE%9A%E6%97%B6%E5%99%A8%E5%92%8C%E5%BB%B6%E6%97%B6/"/>
+    <id>http://yoursite.com/2020/08/18/%E5%AE%9A%E6%97%B6%E5%99%A8%E5%92%8C%E5%BB%B6%E6%97%B6/</id>
+    <published>2020-08-18T08:01:04.000Z</published>
+    <updated>2020-08-18T09:00:22.705Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;定时器&quot;&gt;&lt;a href=&quot;#定时器&quot; class=&quot;headerlink&quot; title=&quot;定时器&quot;&gt;&lt;/a&gt;定时器&lt;/h2&gt;&lt;pre class=&quot; language-JavaScript&quot;&gt;&lt;code class=&quot;language-JavaScript&quot;&gt;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;BOM学习&#39;</title>
+    <link href="http://yoursite.com/2020/08/18/BOM%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2020/08/18/BOM%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-08-18T04:44:33.000Z</published>
+    <updated>2020-08-18T04:57:12.992Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;BOM简述&quot;&gt;&lt;a href=&quot;#BOM简述&quot; class=&quot;headerlink&quot; title=&quot;BOM简述&quot;&gt;&lt;/a&gt;BOM简述&lt;/h2&gt;&lt;pre class=&quot; language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;    
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+    
+      <category term="BOM" scheme="http://yoursite.com/tags/BOM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>&#39;DOM学习&#39;</title>
+    <link href="http://yoursite.com/2020/08/12/DOM%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2020/08/12/DOM%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-08-12T02:43:33.000Z</published>
+    <updated>2020-08-18T04:57:17.610Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;什么是对象&quot;&gt;&lt;a href=&quot;#什么是对象&quot; class=&quot;headerlink&quot; title=&quot;什么是对象&quot;&gt;&lt;/a&gt;什么是对象&lt;/h1&gt;&lt;h2 id=&quot;DOM简介&quot;&gt;&lt;a href=&quot;#DOM简介&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="基础" scheme="http://yoursite.com/tags/%E5%9F%BA%E7%A1%80/"/>
+    
+      <category term="JavaScript" scheme="http://yoursite.com/tags/JavaScript/"/>
+    
+      <category term="DOM" scheme="http://yoursite.com/tags/DOM/"/>
+    
+  </entry>
+  
+  <entry>
     <title>javaScript基础篇-对象</title>
     <link href="http://yoursite.com/2020/08/04/javaScript%E5%9F%BA%E7%A1%80%E7%AF%87-%E5%AF%B9%E8%B1%A1/"/>
     <id>http://yoursite.com/2020/08/04/javaScript%E5%9F%BA%E7%A1%80%E7%AF%87-%E5%AF%B9%E8%B1%A1/</id>
     <published>2020-08-04T08:42:25.000Z</published>
-    <updated>2020-08-04T09:43:16.428Z</updated>
+    <updated>2020-08-12T02:38:53.804Z</updated>
     
     <summary type="html">
     
@@ -79,7 +191,7 @@
     <link href="http://yoursite.com/2020/07/31/JavaScript%E5%9F%BA%E7%A1%80%E7%AF%87-%E5%87%BD%E6%95%B0/"/>
     <id>http://yoursite.com/2020/07/31/JavaScript%E5%9F%BA%E7%A1%80%E7%AF%87-%E5%87%BD%E6%95%B0/</id>
     <published>2020-07-31T09:48:33.000Z</published>
-    <updated>2020-08-04T08:39:05.427Z</updated>
+    <updated>2020-09-10T08:58:59.072Z</updated>
     
     <summary type="html">
     
